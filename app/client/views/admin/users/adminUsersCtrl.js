@@ -190,6 +190,9 @@ angular.module('reg')
                 name: 'Gender',
                 value: user.profile.gender
               },{
+                name: 'Pronouns',
+                value: user.profile.pronouns
+              },{
                 name: 'School',
                 value: user.profile.school
               },{

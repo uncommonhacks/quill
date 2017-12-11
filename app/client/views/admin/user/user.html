@@ -131,6 +131,13 @@
       </div>
 
       <div class="field">
+        <label>Pronouns</label>
+        <input type="text"
+               placeholder="she/her, he/him, they/them?"
+               ng-model="selectedUser.profile.pronouns">
+      </div>
+
+      <div class="field">
         <label>I would describe myself as a...</label>
         <input type="text"
                placeholder="Designer, Data Scientist, iOS Wizard, Hacker Extraordinaire"
@@ -139,21 +146,21 @@
 
       <div class="field">
         <label>
-            What would you like to learn or get out of HackMIT? (optional)
+            What would you like to learn or get out of Uncommon Hacks? (optional)
         </label>
         <textarea ng-model="selectedUser.profile.essay">
         </textarea>
       </div>
 
       <div class="field"
-           ng-hide="isMitStudent">
+           ng-hide="isUchicagoStudent">
         <p>
-          Because of limitations imposed by MIT, we are not legally allowed to host
-          non-MIT minors (those under 18) for HackMIT 2015. Checking the box below affirms that you are or will be 18 years or older by September 19th, 2015.
+          Because of limitations imposed by UChicago, we are not legally allowed to host
+          non-UChi minors (those under 18) for Uncommon Hacks 2018. Checking the box below affirms that you are or will be 18 years or older by September 19th, 2015.
         </p>
         <p>
           <strong>
-          We will be checking ID. If you are a non-MIT minor, you will be turned away at the door.
+          We will be checking ID. If you are a non-UChicago minor, you will be turned away at the door.
           </strong>
         </p>
         <div class="ui checkbox">

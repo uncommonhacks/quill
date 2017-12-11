@@ -14,10 +14,10 @@ angular.module('reg')
       $scope.user = currentUser.data;
 
       // Is the student from MIT?
-      $scope.isMitStudent = $scope.user.email.split('@')[1] == 'mit.edu';
+      $scope.isUchicagoStudent = $scope.user.email.split('@')[1] == 'uchicago.edu';
 
       // If so, default them to adult: true
-      if ($scope.isMitStudent){
+      if ($scope.isUchicagoStudent){
         $scope.user.profile.adult = true;
       }
 
@@ -143,6 +143,15 @@ angular.module('reg')
                 {
                   type: 'empty',
                   prompt: 'Please select a gender.'
+                }
+              ]
+            },
+            pronouns: {
+              identifier: 'gender',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please enter your pronouns.'
                 }
               ]
             },
