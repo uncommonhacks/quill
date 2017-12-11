@@ -13,7 +13,7 @@ angular.module('reg')
       // Set up the user
       $scope.user = currentUser.data;
 
-      // Is the student from MIT?
+      // Is the student from uchicago?
       $scope.isUchicagoStudent = $scope.user.email.split('@')[1] == 'uchicago.edu';
 
       // If so, default them to adult: true
@@ -160,7 +160,7 @@ angular.module('reg')
               rules: [
                 {
                   type: 'allowMinors',
-                  prompt: 'You must be an adult, or an MIT student.'
+                  prompt: 'You must be an adult, or a UChicago student.'
                 }
               ]
             }
