@@ -22,7 +22,7 @@
 
       <button
         ng-repeat="page in pages"
-        ng-class="page == currentPage ? 'active pink' : ''"
+        ng-class="page == currentPage ? 'active uncommonpink' : ''"
         ng-click="goToPage(page)"
         class="ui icon basic page button">
         {{page}}
@@ -66,8 +66,8 @@
               <strong> {{field.name}}: </strong>
 
               <span ng-show="field.type === 'boolean'">
-                <i class="red circle remove icon" ng-show="!field.value"></i>
-                <i class="green circle check icon" ng-show="field.value"></i>
+                <i class="uncommonred circle remove icon" ng-show="!field.value"></i>
+                <i class="uncommongreen circle check icon" ng-show="field.value"></i>
               </span>
 
               <span ng-if="field.type == null">
@@ -126,27 +126,27 @@
               <!-- Verified -->
               <i
                 ng-if="user.verified"
-                class="green check circle icon">
+                class="uncommongreen check circle icon">
               </i>
               <i
                 ng-if="!user.verified"
-                class="red remove circle icon">
+                class="uncommonred remove circle icon">
               </i>
 
               <!-- Submitted -->
               <i
                 ng-if="user.status.completedProfile"
-                class="green check circle icon">
+                class="uncommongreen check circle icon">
               </i>
               <i
                 ng-if="!user.status.completedProfile"
-                class="red remove circle icon">
+                class="uncommonred remove circle icon">
               </i>
 
               <!-- Admitted -->
               <i
                 ng-if="user.status.admitted"
-                class="green check circle icon">
+                class="uncommongreen check circle icon">
               </i>
               <i
                 ng-if="!user.status.admitted"
@@ -160,7 +160,7 @@
               </i>
               <i
                 ng-if="user.status.admitted && user.status.confirmed"
-                class="green check circle icon">
+                class="uncommongreen check circle icon">
               </i>
               <i
                 ng-if="user.status.admitted && !user.status.confirmed && !user.status.declined"
@@ -168,7 +168,7 @@
               </i>
               <i
                 ng-if="user.status.admitted && user.status.declined"
-                class="red remove circle icon">
+                class="uncommonred remove circle icon">
               </i>
 
             </td>
@@ -199,11 +199,11 @@
               <span ng-if="user.status.confirmed">
                 <i
                   ng-if="user.confirmation.needsReimbursement && !user.status.reimbursementGiven"
-                  class="red money icon">
+                  class="uncommonred money icon">
                 </i>
                 <i
                   ng-if="user.confirmation.needsReimbursement && user.status.reimbursementGiven"
-                  class="green money icon">
+                  class="uncommongreen money icon">
                 </i>
               </span>
             </td>
@@ -221,14 +221,14 @@
               class="right aligned collapsing">
 
               <button
-                class="accept ui circular mini basic green icon button"
+                class="accept ui circular mini basic uncommongreen icon button"
                 ng-click="acceptUser($event, user, $index)">
                 <i class="add user icon"></i>
               </button>
 
               <button
                 ng-click="toggleCheckIn($event, user, $index)"
-                class="ui circular mini basic green icon button">
+                class="ui circular mini basic uncommongreen icon button">
 
                 <i
                   ng-if="!user.status.checkedIn"
@@ -236,7 +236,7 @@
 
                 <i
                   ng-if="user.status.checkedIn"
-                  class="green flag icon"></i>
+                  class="uncommongreen flag icon"></i>
 
               </button>
 
