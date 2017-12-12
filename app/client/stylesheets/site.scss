@@ -31,6 +31,19 @@ $brand-primary: $primary;
 $brand-secondary: $secondary;
 $brand-tertiary: $tertiary;
 
+.uncommonred {
+  color: $uncommonred;
+}
+
+.uncommongreen {
+  color: $uncommongreen;
+}
+
+.uncommonpink {
+  color: $uncommonpink;
+}
+
+
 @mixin transform($transforms) {
   -webkit-transform: $transforms;
           transform: $transforms;
@@ -139,13 +152,6 @@ input {
   }
 }
 
-.uncommonred {
-  color: $uncommonred;
-}
-
-.uncommongreen {
-  color: $uncommongreen;
-}
 
 .ui.form select {
   height: 2.5em;
