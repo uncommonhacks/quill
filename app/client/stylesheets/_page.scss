@@ -1,6 +1,6 @@
 .page {
   padding-top: 2em;
-  padding-bottom: 4em;
+  padding-bottom: 1em;
   .title {
     font-family: $font-header;
     text-transform: uppercase;
@@ -13,14 +13,14 @@
         content: " ";
         width: 200px;
         display: block;
-        margin: 1em auto 2em;
+        margin: 1em auto 1em;
         border-bottom: 4px solid $page-header-color;
     }
     &.divided2:after {
         content: " ";
         width: 200px;
         display: block;
-        margin: 1em auto 2em;
+        margin: 1em auto 1em;
         border-bottom: 4px solid $uncommonteal;
     }
     &.divided2 {
