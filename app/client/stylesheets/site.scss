@@ -83,8 +83,11 @@ body {
 .ui.segment {
   border-radius: 0;
   box-shadow: none;
-  .uncommongreen {
+  &.uncommongreen {
     border-top: 2px solid $uncommongreen;
+  }
+  &.uncommonraspberry {
+    border-top: 2px solid $uncommonraspberry;
   }
 }
 
