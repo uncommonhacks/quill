@@ -37,6 +37,8 @@
           <p>
             <strong>
               Welcome back, {{user.profile.name}}!
+              {{ Session.getUser().admitted }})
+              {{Session.getUser().completedProfile}}
             </strong>
           </p>
         </div>
