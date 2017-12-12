@@ -91,6 +91,29 @@ body {
   }
 }
 
+.ui.label {
+  &.uncommonblue {
+    background-color: $uncommonblue !important;
+    border-color: $uncommonblue !important;
+    color: #fff !important;
+  }
+  &.uncommonteal {
+    background-color: $uncommonteal !important;
+    border-color: $uncommonteal !important;
+    color: #fff !important;
+  }
+  &.uncommongreen {
+    background-color: $uncommongreen !important;
+    border-color: $uncommongreen !important;
+    color: #fff !important;
+  }
+  &.uncommonred {
+    background-color: $uncommonred !important;
+    border-color: $uncommonred !important;
+    color: #fff !important;
+  }
+}
+
 input {
   border-radius: 0 !important;
 }
