@@ -16,7 +16,9 @@
         margin: 1em auto 2em;
         border-bottom: 4px solid $page-header-color;
     }
-
+    &.divided2 {
+      color: $uncommonteal;
+    }
     &.small {
       font-size: 1em;
       letter-spacing: 4px;
