@@ -77,7 +77,6 @@ angular.module('reg')
         templateUrl: "views/confirmation/confirmation.html",
         controller: 'ConfirmationCtrl',
         data: {
-          requireCompletedProfile: true,
           requireAccepted: true
         },
         resolve: {
