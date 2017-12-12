@@ -8,7 +8,7 @@
       <div class="ui form"
             ng-class="{'loading': loading}">
 
-        <div class="divided title">Basic Information</div>
+        <div class="divided2 title">Basic Information</div>
 
         <fieldset ng-disabled="regIsClosed">
 
@@ -75,9 +75,9 @@
         <label>Pronouns</label>
         <input type="text"
                placeholder="she/her, he/him, they/them?"
-               ng-model="selectedUser.profile.pronouns">
+               ng-model="user.profile.pronouns">
       </div>
-
+      <div class="divided2 title">Getting to know you</div>
         <div class="field">
           <label>I would describe myself as a...</label>
           <input type="text"
@@ -92,7 +92,7 @@
           <textarea ng-model="user.profile.essay">
           </textarea>
         </div>
-
+        <div class="divided2 title">Legal Stuff</div>
         <div class="field"
              ng-hide="isUChicagoStudent">
           <p>
