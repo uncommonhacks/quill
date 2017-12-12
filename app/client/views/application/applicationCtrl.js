@@ -75,7 +75,7 @@ angular.module('reg')
               title: "Awesome!",
               text: "Your application has been saved.",
               type: "success",
-              confirmButtonColor: "#e76482"
+              confirmButtonColor: "#8BCFB7"
             }, function(){
               $state.go('app.dashboard');
             });
@@ -147,7 +147,7 @@ angular.module('reg')
               ]
             },
             pronouns: {
-              identifier: 'gender',
+              identifier: 'pronouns',
               rules: [
                 {
                   type: 'empty',
