@@ -119,18 +119,33 @@ input {
       color: #fff;
     }
   }
-  &.uncommonpink {
-    background: $uncommonpink;
+  &.uncommonraspberry {
+    background: $uncommonraspberry;
     &:hover {
-      background: lighten($uncommonpink, 3%);
+      background: lighten($uncommonraspberry, 3%);
       color: #fff;
     }
     &:active {
-      background: darken($uncommonpink, 3%);
+      background: darken($uncommonraspberry, 3%);
       color: #fff;
     }
     &:focus {
-      background: $uncommonpink;
+      background: $uncommonraspberry;
+      color: #fff;
+    }
+  }
+  &.uncommonred {
+    background: $uncommonred;
+    &:hover {
+      background: lighten($uncommonred, 3%);
+      color: #fff;
+    }
+    &:active {
+      background: darken($uncommonred, 3%);
+      color: #fff;
+    }
+    &:focus {
+      background: $uncommonred;
       color: #fff;
     }
   }
