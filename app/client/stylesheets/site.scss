@@ -95,7 +95,11 @@ body {
 .ui.segment {
   border-radius: 0;
   box-shadow: none;
+  .uncommongreen {
+    border-top: 2px solid $uncommongreen;
+  }
 }
+
 input {
   border-radius: 0 !important;
 }
