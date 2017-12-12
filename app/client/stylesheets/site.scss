@@ -51,8 +51,6 @@ $brand-tertiary: $tertiary;
 @import 'team';
 @import 'admin';
 
-$purple: #8969AE;
-
 html,
 body {
   height: 100%;
@@ -109,6 +107,18 @@ input {
     }
     &:focus {
       background: $secondary;
+    }
+  }
+  &.uncommonpurple {
+    background: $uncommonpurple;
+    &:hover {
+      background: lighten($uncommonpurple, 3%);
+    }
+    &:active {
+      background: darken($uncommonpurple, 3%);
+    }
+    &:focus {
+      background: $uncommonpurple;
     }
   }
 }
