@@ -146,6 +146,15 @@ input {
   }
 }
 
+.icon {
+  &.uncommonred {
+    color: $uncommonred;
+  }
+  &.uncommongreen {
+    color: $uncommongreen;
+  }
+}
+
 .deadline {
   padding: 20px 10px;
 }
