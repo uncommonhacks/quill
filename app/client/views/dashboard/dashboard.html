@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div
+        <div class="deadline"
           ng-class="settings.timeClose"
           ng-if="!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined')">
           <strong>
@@ -69,7 +69,7 @@
           <br>
         </div>
 
-        <div
+        <div class="deadline"
           ng-class="settings.timeConfirm"
           ng-if="dashState('admittedAndCanConfirm') || dashState('admittedAndCannotConfirm') || dashState('confirmed') || dashState('declined')">
           <strong>
