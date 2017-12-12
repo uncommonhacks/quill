@@ -125,6 +125,22 @@ input {
       background: $uncommonpurple;
     }
   }
+  &.uncommonpink {
+    background: $uncommonpink;
+    &:hover {
+      background: lighten($uncommonpink, 3%);
+    }
+    &:active {
+      background: darken($uncommonpink, 3%);
+    }
+    &:focus {
+      background: $uncommonpink;
+    }
+  }
+}
+
+.uncommonred {
+  color: $uncommonred;
 }
 
 .ui.form select {
