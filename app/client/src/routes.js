@@ -210,6 +210,9 @@ angular.module('reg')
         }
 
         if (requireAccepted && !Session.getUser().admitted) {
+          var gutil = require('gulp-util');
+          gutil.log(Session.getUser().admitted);
+          gutil.log(Session.getUser().completedProfile);
           event.preventDefault();
           $state.go('app.dashboard');
         }
