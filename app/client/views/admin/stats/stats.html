@@ -1,7 +1,7 @@
 <div id="stats">
 
   <div
-    class="ui green segment"
+    class="ui uncommongreen segment"
     ng-class="{'loading': loading}">
     <div class="ui header">
       Stats
@@ -11,7 +11,7 @@
       <div class="ui list">
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
             Total Users
@@ -21,7 +21,7 @@
         </div>
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
             Verified Users
@@ -31,7 +31,7 @@
         </div>
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
             Submitted Users
@@ -42,7 +42,7 @@
         <div class="ui divider"></div>
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
               Admitted
@@ -52,7 +52,7 @@
         </div>
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
               Confirmed (Total)
@@ -62,7 +62,7 @@
         </div>
         <div
           class="item">
-          <i class="green circle check icon"></i>
+          <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
               Confirmed (UChicago)
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="item">
-          <i class="circle red icon"></i>
+          <i class="circle uncommonred icon"></i>
           <div class="content">
             <strong>
               Declined
@@ -81,7 +81,7 @@
         </div>
 
         <div class="item">
-          <i class="green flag icon"></i>
+          <i class="uncommongreen flag icon"></i>
           <div class="content">
             <strong>
               Checked In
@@ -125,7 +125,7 @@
         <div class="ui divider"></div>
 
         <div class="item">
-          <i class="green money icon"></i>
+          <i class="uncommongreen money icon"></i>
           <div class="content">
             <strong>
               Total Reimbursements:
@@ -233,16 +233,16 @@
         <div class="content">
           <strong>{{school.email}}</strong> : {{school.count}} ({{school.count / stats.total * 100 | number: 1}}%)
           <p>
-          <div class="ui purple mini label">
+          <div class="ui uncommonblue mini label">
             Submitted: {{school.stats.submitted}}
           </div>
-          <div class="ui pink mini label">
+          <div class="ui uncommonteal mini label">
             Admitted: {{school.stats.admitted}}
           </div>
-          <div class="ui green mini label">
+          <div class="ui uncommongreen mini label">
             Confirmed: {{school.stats.confirmed}}
           </div>
-          <div class="ui red mini label">
+          <div class="ui uncommonred mini label">
             Declined: {{school.stats.declined}}
           </div>
           </p>
