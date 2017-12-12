@@ -8,15 +8,15 @@ $login-bg-color: $secondary;
 $login-color: $uncommonblue;
 $register-color: $uncommongreen;
 
-$status-unverified-color: rgb(82, 82, 82);
-$status-incomplete-color: #F5F5F5;
-$status-submitted-color: lighten($secondary, 20%);
-$status-admitted-color: $primary;
-$status-confirmed-color: $secondary;
-$status-checkedin-color: $secondary;
-$status-waitlist-color: $tertiary;
-$status-declined-color: $tertiary;
-$status-rejected-color: red; // Not used
+$status-unverified-color: $uncommonorange;
+$status-incomplete-color: $uncommonpink;
+$status-submitted-color: lighten($uncommonblue, 50%);
+$status-admitted-color: $uncommonteal;
+$status-confirmed-color: $uncommongreen;
+$status-checkedin-color: $uncommonraspberry;
+$status-waitlist-color: $uncommonblue;
+$status-declined-color: lighten($uncommonraspberry, 50%);;
+$status-rejected-color: $uncommonred;
 
 // Sidebar variables
 $sidebar-color: #333333;
