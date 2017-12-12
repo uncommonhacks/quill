@@ -10,12 +10,12 @@ $register-color: $uncommongreen;
 
 $status-unverified-color: $uncommonorange;
 $status-incomplete-color: $uncommonpink;
-$status-submitted-color: lighten($uncommonblue, 50%);
+$status-submitted-color: lighten($uncommonblue, 10%);
 $status-admitted-color: $uncommonteal;
 $status-confirmed-color: $uncommongreen;
 $status-checkedin-color: $uncommonraspberry;
 $status-waitlist-color: $uncommonblue;
-$status-declined-color: lighten($uncommonraspberry, 50%);;
+$status-declined-color: lighten($uncommonraspberry, 10%);;
 $status-rejected-color: $uncommonred;
 
 // Sidebar variables
