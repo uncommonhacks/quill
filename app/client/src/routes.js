@@ -209,7 +209,7 @@ angular.module('reg')
           $state.go('app.dashboard');
         }
 
-        if (requireAccepted && !Session.getUser().admitted) {
+        if (requireAccepted && !Session.getUser().status.admitted) {
           event.preventDefault();
           $state.go('app.dashboard');
         }
