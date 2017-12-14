@@ -19,7 +19,8 @@
       text-transform: uppercase;
 
       &.unverified {
-        background: $status-unverified-color;
+        background: $uncommon-yellows;
+        color: black;
       }
 
       &.incomplete {
