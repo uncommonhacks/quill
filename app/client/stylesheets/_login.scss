@@ -67,7 +67,7 @@ html, body {
     left: 0px;
     width: 30px;
     height: 30px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.81);
     border-radius: 50%;
     -webkit-animation: play_ball 6s linear infinite;
     animation: play_ball 6s linear infinite;
@@ -78,7 +78,7 @@ html, body {
     width: 25px;
     height: 120px;
     top: 0px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.81);
 
     -webkit-animation: left_pong 6s infinite;
     animation: left_pong 6s infinite;
@@ -90,7 +90,7 @@ html, body {
     top: 0px;
     width:25px;
     height:120px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.81);
 
     -webkit-animation: right_pong 6s infinite;
     animation: right_pong 6s infinite;
