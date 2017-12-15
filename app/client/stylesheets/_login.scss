@@ -151,3 +151,24 @@ html, body {
     position: relative;
     z-index: 2;
 }
+
+
+@media (max-width: 818px) {
+
+    .right_paddle, .left_paddle {
+        width: 20px;
+        top: calc(50% - 60px);
+    }
+    .ball {
+        top: calc(50% - 14px);
+        left: 20px;
+        height: 28px;
+        width: 28px;
+    }
+    .ball, .right_paddle, .left_paddle {
+        -webkit-animation: none;
+        animation: none;
+    }
+
+}
+
