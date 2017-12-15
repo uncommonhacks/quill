@@ -57,6 +57,11 @@ var profile = {
     min: 1,
     max: 150,
   },
+  race: {
+    type: String,
+    min: 1,
+    max: 150,
+  },
 
 };
 

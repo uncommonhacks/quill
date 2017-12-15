@@ -1,0 +1,171 @@
+* 81be755ed0a290ad6f0e76f743e209bd23203675 adding banner
+* db1c42da47372ea686c12d8c4a1c2fbf98864d2f adding banner
+* 8896450dc5698e920345c1cb70d97020fa8bb28b colors
+* 0c800d382a2d14e0dcd0066b82f274974ba20208 colors
+* f7373d382e20f2c3859419ae15d47788dc697ac0 colors
+* 74f7ae1601a7608e5dcbd18836bfa4603286ee56 confirm bug
+* 95ed096125cced07e3d472d581cbc82e9598398a confirm bug
+* 3c8bbfa0457bac63521d11a0bd5e19e70f01d44b confirm bug
+* e7494b965fb8697df6ff275258f3d029a0332c8e confirm bug
+* 3da142eed435732831f989daa167469e92113e6f confirm bug
+* 479bcf6179b0d109882243c45fba7adc85354d1f confirm bug
+* f53d2033e9348e8417ef92ccbf0f5dd548cf6a4a confirm bug
+* 2965461141493ee3ac753b912e8f089772d87346 confirm bug
+* b796d5d337156ec971d772b80574411680850544 confirm bug
+* 08b1ebe2b7b62031500ec9dbfb863443eeb65d9e dash
+* 08a00e99f3d9c1a5313972f7fb1b6b9b50a51b82 application
+* 71225c90ef2fed1516acc2b5900d2ead9ddd1612 dashboard and team pages
+* 183e2830849188941fea0199f23334d5b8c3a396 stats page
+* 1b9bfb6784eda0d541987ca4f91acf656b4fa6e3 stats page
+* 5531fa03c83eef4b91f58a10131c2540cb837b75 stats page
+* 9682bd0b246d5467213198867f17f14ebda25e18 stats page
+* 0468377b5ffb7b11bece48379668cec282b5e09a stats page
+* 8eec97d69778730afae09e4052ec0135e50cad2f stats page
+* cb5a68d71822aca24fb6685ef5087313cf339882 stats page
+* 45a7d339635d79c69da7fd17253408f51a6b97ed app padding
+* 96e77d682ec625300669e566a71b56e2cd523649 app padding
+* f2b87205e6b630b6538568a7e37dd032752d689d app padding
+* a91532ac0ee6c462f9d57ba26ab03f93a0ce5c84 app padding
+* 0b9b5cf496932dad8fd8f1115067576bb47596fc app padding
+* da7dc4367f7456e307ae89dcb615918c18e0d509 app colors
+* 994e70cb128e283bda40ec997cf7b370434bc6ef app colors
+* 2f527c5ce81bff527e6a7bc456d1e55397d0d868 admin colors
+* c4403ccc277029df485aa79d0e549c9dedcfd3a5 padding on app
+* e01463cb6f510f065ffb66f26fbbaa5e9072eb28 fixin things
+* 2e447e15fcd5016a81d3befe9037c229958300b8 fixin things
+* cb52c51e921396bbff888c8929be760ee1c8035e fixing pronouns
+* 0f2f44b38413574b4f298402ac06291a39422f84 text spacing on dashboard and more colors
+* 67fc71546d10ed35ccc8d2bdbf95162c61f8cb6f text spacing on dashboard 2 electric boogaloo
+* 0010bc905c13580c2968d276ee7199283d2fcd99 text spacing on dashboard
+* 842b1ff8d771dd128f71163153eb238a36753cee text spacing
+* 0fe83bbd3b9815fefc960ca3fe8ee71e538e4cf6 spacing on dashboard
+* e83a4f7c1626937e87d1d8d734c80cbf9bb1fabf do the buttons work yet now
+* 45f48baaf3ae645aaa9e84437880e7aaab834a81 do the buttons work yet
+* e28857e04e062d8c7c44a01cb24b92e2305dcda1 fixing more colors
+* 1ff020ddb3b0d0f86979095089fec3440ac2b9c9 fixing more colors
+* 610e142477ad1970bd87a74eef0cf5bad6a82436 fixing more colors
+* 0456022ef9c8e41bc8fdf78c514f2f5e85380b62 fixing more colors
+* 4f948d19357df650d818e1dd5036b6edb070bc3e login page colors
+* 3d605474b4e07aaa5ed8b53942d8d41413d5b8b2 white text on buttons
+* acf8abfe8730ffa347b5db4bd54eee9244806234 uncommoncolors
+* 030757a1503a8879eb3726b1f14c892bee4f83e6 colors
+* 91ad4d94c2ede57a5eb98872fb1303b368919c99 fixing more colors
+* c41afd5469b1f742e0804cf0fa2b4c90c8b56384 sidebar color
+* b2b1f1a1fe49b21c4d8446ea88f45c9f6bf6cea7 sidebar color
+* 6e8b9837ed8ab55e42b84c66635b57a4e801a42d fdsajlffdasd
+* ce1f0788a3deb06ef395fffbb3cefbc2986b99f2 fdsajlfd
+* ddc22a6102f99bc794d58745b93fedce162bb746 re-fix logo
+* 12927a92aa20aeae6f041beb33c0761e25f90801 fix logo
+* b7390d039c818ede19d4a4412a3b3ea5c26aaffa change header
+* 5661356d9db28459ff85736907b0016dcc6b74c7 augh
+* 72bb562097d0961eb66cee7c853243d6a50b48f9 is email fixed yet
+* 854d64b0cbb429ce053d9f0c71e0ba4c229711c0 okkay do it do?
+* a5b3b58a685c061263d4810f79a701b571b4fc35 removing ds stores :(
+* ce40b36fbf5bb6af62409f6ccdfcb54cd079522b setting up secrets
+* d2e2d133bc7492cec8101d6d418a5c381cea6485 fixing favicon
+* 2330ca27065b60c45f12066081fe71b33eafe0b7 replacing mit w uchicago and adding pronouns
+* 7d1016a7e28d1988c060029e5bb1f31b30207234 fixing teh snek
+* e3179b69d42694a85ad79416bb5cb91f230b2915 fixing hotlinking
+* e8eaab20cc250d7c2d021989b2365fad010c59be idk what is happening
+*   b096249a4c0af41f98a14fa1b76fa2ad284a507e Merge pull request #44 from xTEddie/fix-routes
+|\  
+| * a8a81fa0de9b7879847531b7d5d9d9d154cba175 Prevent users to fill out confirmation form without being admitted
+* |   9b6d2dfae9bfcc1849e5f5dfe359296909cd32be Merge pull request #40 from jeremy091/allow_minors
+|\ \  
+| * | 851e1c94242dc91528e29fa95a6b6e6fb8e8353f Change button to checkbox #15
+| * | 1a8fbd8109247b99dd5eeed6447eeade69d989d9 Add minors validation to form validation #15
+| * | 7ff83ea46a5312707893e89c01e133171b21d6a5 Scope and settings not in sync #15
+| * | 39a8c2cd52a1815b4529c400e04e1eec8a524262 Change successText from var to const #15
+| * | 412375cbddb1142fb19cb0aad5b3683ab0e6123f Add allow minors toggle button #15
+| |/  
+* |   2a57da20caff31e665fb0ffb236fed1453a95a0e Merge pull request #34 from at0dd/issue_27
+|\ \  
+| * | fa9427adf2945b3186aed0aece88c37ac0587b70 Show registration/confirmation deadline on dashboard
+* | |   0a1ac0eb4742a340a3f361582437ac917e703baa Merge pull request #43 from xTEddie/school-dropdown
+|\ \ \  
+| * | | ec70bb53aa6ea3619375149e0b2f3866f628293c Change school dropdown styling similar to the other form fields
+| * | | 48028204652824d9578e546be14ec048b74daefd Clean up
+| * | | c802e4104839176214d747f91a6208a0a8bf539a Add school dropdown
+| * | | 7bdd53a2314695f7971504877104df1cd2cad542 Add schools.csv from MLH repo
+| | |/  
+| |/|   
+* | |   a898fc0fee6eb99ef0f7094ccc49e7c8df895e4d Merge pull request #36 from at0dd/issue_32
+|\ \ \  
+| |/ /  
+|/| |   
+| * | f0533a48d8e8f66eabbd4c277117522d3147a3ff Populate email subject
+| |/  
+* |   67832f6ff518e7c188a1a7487185f295f15fb2c8 Merge pull request #37 from JustinAWei/contributing
+|\ \  
+| * | 4fec682b2940db3a503103eceb20e58650aee51a Fixed parameter error that prevented dashboard status display.
+| |/  
+* |   a55d90f74674806720f73eff31dc475787003027 Merge pull request #39 from mpab1410/patch-1
+|\ \  
+| |/  
+|/|   
+| * 56e0bd84527125345ddcc3318219e467a2e65db4 Fixed typo in admin/users view
+|/  
+*   7e21dfa566887e0634d8c7b5ec0e2787d6aa2a04 Merge pull request #33 from at0dd/issue_32
+|\  
+| * 944365edc25635f60b4645e67e25f4eb666585e6 Fix typo
+| * 98848d0bff816939d8475bdebdd129121061ef12 Separate email config/display values
+| * 3dbaa95c155db2c740745a826ab815835c1589d4 Populate emails from .env
+* |   1b4919dcf13c1f95a03fe10c809c4c744b0bde62 Merge pull request #31 from at0dd/issue_26
+|\ \  
+| |/  
+| * 2d7956f17165d7ed33508628c3ae1e9a32559fee Add .env.config to changes
+| * a948d038d1db1565bcda85692fceb9aeaacaf9a0 Remove HackMIT
+| * 412be3726fcb0d278e9a112d7b5075d7b317504a Change email addresses to placeholders
+|/  
+* 67c6ebebf816a6eedb2e37f824559e691d03fd75 Add deploy to heroku button to Quill. Squashed commit of the following:
+* 92da13b10ede0746d1b84b0908c5248a5b9fe2e6 Add port to app.json
+* c9cab6d7438fd55dc27beddbfa48c78a3caa9480 Add node engine to package.json for heroku
+*   0aace5ce3c76a4ab8c129fabdc85b2af1a858211 Merge branch 'master' of https://github.com/techx/quill
+|\  
+| *   31609e555dba74ac88bcee638f33cd49ff626f45 Merge pull request #22 from patins/update-team-on-join
+| |\  
+| | * 3dd65a362a889027c208a43b69d093deeecfc3de Update the team view when a team is joined
+| |/  
+| *   688b3dbe43d5b744686706a570de3da98297e61a Merge pull request #18 from turbomaze/admin-modal-phone
+| |\  
+| | * 304b9db7341fd2ac6fba6dc780098509faace93c Change modal logic to refer to confirmation.phoneNumber properly.
+| |/  
+| *   cd3a705af6738a711aa62663dac1a38799675834 Merge pull request #12 from anishathalye/patch-1
+| |\  
+| | * eff0770bdad91345611cd4fcb36b9125aff91e9c Update README to encourage secure configuration
+| |/  
+* | 6116ab236f704d5e6b18937e65fde1aa1177a070 Add app.json to deploy to heroku
+|/  
+* 1cffd9940c7b5c8ab54d3c6cee26ad75b5b86c6e Add users list to README
+* 9211feafee1382d94ce5dd2d3b45fa23412db292 Fix broken links and compress image
+* 5f9c5d74d343124aacb5d3ee412b3845a3f0e191 Clean up README
+* 443a5442e67880a64edbb54b03cc404357751000 Change contact email
+*   b62773c525e986cbec3296bb43b60a3b4709a0bf Merge branch 'develop' of https://github.com/techx/hackmit-registration-preview into develop
+|\  
+| *   c1a2d12285c6f66274b9595108bc5f808b4bdc7a Merge pull request #10 from revalo/master
+| |\  
+| | * a6ff7f2e234ef112bc620bd1bb41a7f6e0962a8a Removes Summary for pR
+| | * 88a42ea6c4bcdee1b180b0a140d8886c3b5c543e Security: `/users/:id/team` NoSQL Injection Fix
+| | * 6a4eefffb7a08d5ef2e332134c849014eace4e4d Security: /api/users/:id/profile doesn't respect `timeConfirm`
+* | | e075b7dbd159a320022fa57995dc9db4a4d5c27a Add contributing guide
+* | | 33a7be3e9ec091a26e4302b0e664f7b10d6fdc8d Add branding override
+* | | e641a564b06f5ead610600949e46751df0f63a8d Separate db stuff in readme
+|/ /  
+* | 74f5174a4cc6a2061f151ceabfaa81e829ebfed6 Update formatting in README
+* | 821819924e3207e8bd5bb2c06e34d8ac2f4a028c Move all customization styling to one file
+* | c51b33d84923c13ede9141ce9b67c771eb19b84e Add stats screenshot
+* | 634c7c5ab27162f4d688edf73008785f3cc54c13 First draft of README
+* | 64c4c567857e57c3cd90e10d673e094975174189 Fix silly things
+* | 223e54920750618d5c053ec7df55a5e23780a1e3 Document .env variables
+* | 7c0fb22d84da08da1fe0f119b0553841cf133fd3 Added license
+|/  
+* e66b6ba2e6e769bb4c293bd62dd5d2ca757e284a Clean up emails
+* 87b151fd1b143da57368a6e090db8786e721afc1 Move slack hook to .env
+* defa86f3c5e318b9e812999657a3017400518071 Generalized branding
+* 3b01512f8b9947583071f9633341f87357b28f5d Add team to constants.js
+* 35cc2ed72c0d36a1d527b2ea95b7d5ee12b47458 Added sidebar to constants.js
+* a6bdbcebb7f9a3a172772c1d85ae8aab5a39a06c Uppercase constants
+* 795c35b0c1a7c4ff65952c0465aa34558d158079 Centralize dashboard strings
+* 6e06d2a08396f3d580377333b43eff159b6f8e4b Lock down jsonwebtoken dependency
+* 25d466df392b08d1ff36fd6e83b527d4db1285bb Generalize email header image.  Remove hardcoded AWS urls.
+* e83a5842f6c369bdda58ac113e41e13c2a9d24c2 Initial commit

@@ -155,6 +155,15 @@ angular.module('reg')
                 }
               ]
             },
+            race: {
+              identifier: 'race',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please enter your race.'
+                }
+              ]
+            },
             adult: {
               identifier: 'adult',
               rules: [
