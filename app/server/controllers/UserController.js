@@ -137,7 +137,7 @@ UserController.createUser = function(email, password, callback) {
 
   if (typeof email !== "string"){
     return callback({
-      message: "Email must be a string."
+      message: "Please enter a valid email."
     });
   }
 
