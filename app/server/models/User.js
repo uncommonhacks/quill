@@ -62,6 +62,7 @@ var profile = {
     min: 1,
     max: 150,
   },
+  major: String,
 
 };
 
@@ -76,7 +77,6 @@ var confirmation = {
     }
   },
 
-  major: String,
   github: String,
   twitter: String,
   website: String,
