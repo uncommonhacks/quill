@@ -7,7 +7,6 @@ acceptance messages over email?
 
 ----waiting on ben
 essay fields
-registration deadlines
 
 
 ----can be done by hand or are optional
@@ -19,3 +18,4 @@ pretty race input field
 restart mongo
 JWT secret and mongo connection string
 remove HTTP auth
+registration deadlines
