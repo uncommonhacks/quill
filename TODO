@@ -1,9 +1,5 @@
 chrome debugger
-check colors
-admin/users and admin/settings colors/formatting
 email header
-add email alerts
-acceptance messages over email?
 
 ----waiting on ben
 essay fields
@@ -12,10 +8,11 @@ essay fields
 ----can be done by hand or are optional
 stats on race
 pretty race input field
+add email alerts
+acceptance messages over email?
 
 
 ````FINAL BEFORE PRODUCTION````
 restart mongo
-JWT secret and mongo connection string
 remove HTTP auth
 registration deadlines
