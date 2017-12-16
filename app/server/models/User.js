@@ -62,8 +62,16 @@ var profile = {
     min: 1,
     max: 150,
   },
-  major: String,
-
+  major: {
+    type: String,
+    min: 1,
+    max: 150,
+  },
+  hackathons: {
+    type: String,
+    min: 1,
+    max: 150,
+  }
 };
 
 // Only after confirmed

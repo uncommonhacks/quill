@@ -173,6 +173,15 @@ angular.module('reg')
                 }
               ]
             },
+            hackathons: {
+              identifier: 'hackathons',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'How many hackathons?'
+                }
+              ]
+            },
             adult: {
               identifier: 'adult',
               rules: [

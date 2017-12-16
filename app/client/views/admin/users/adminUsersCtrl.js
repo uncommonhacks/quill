@@ -210,6 +210,9 @@ angular.module('reg')
               },{
                 name: 'Major',
                 value: user.profile.major
+              },{
+                name: 'Number of Hackathons',
+                value: user.profile.hackathons
               },
             ]
           },{

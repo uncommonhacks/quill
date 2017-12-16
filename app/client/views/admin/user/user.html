@@ -10,7 +10,7 @@
 
 </div>
 
-<div class="ui botom attached segment">
+<div class="ui bottom attached segment">
 
   <div>
     <p>
@@ -146,6 +146,10 @@
         <input type="text" ng-model="selectedUser.profile.major" />
       </div>
       <div class="field">
+        <label> # Hackathons </label>
+        <input type="text" ng-model="selectedUser.profile.hackathons" />
+      </div>
+      <div class="field">
         <label>I would describe myself as a...</label>
         <input type="text"
                placeholder="Designer, Data Scientist, iOS Wizard, Hacker Extraordinaire"
@@ -217,17 +221,17 @@
 
       <div class="field">
         <label> Github </label>
-        <input type="url" ng-model="selectedUser.profile.github" />
+        <input type="url" ng-model="selectedUser.confirmation.github" />
       </div>
 
       <div class="field">
         <label> Website </label>
-        <input type="url" ng-model="selectedUser.profile.website" />
+        <input type="url" ng-model="selectedUser.confirmation.website" />
       </div>
 
       <div class="field">
         <label> Resume </label>
-        <input type="url" ng-model="selectedUser.profile.resume" />
+        <input type="url" ng-model="selectedUser.confirmation.resume" />
       </div>
 
       <div class="ui divider"></div>
