@@ -11,6 +11,7 @@ add email alerts
 confirmation page questions
 acceptance messages over email?
 check adult logic
+set up resume dropbox
 
 
 ````FINAL BEFORE PRODUCTION````
@@ -28,7 +29,7 @@ remove HTTP auth
 *# hackathons
 *describe myself as a....
 *github devpost twitter website
-resume
+*resume
 *5 essays?
 *gender
 *pronouns
