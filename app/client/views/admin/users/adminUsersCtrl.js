@@ -228,6 +228,8 @@ angular.module('reg')
               },{
                 name: 'Essay 5',
                 value: user.profile.essay5
+              },{
+                name
               }
             ]
           },{
@@ -255,14 +257,14 @@ angular.module('reg')
             fields: [
               {
                 name: 'Coming from...',
-                value: user.confirmation.location,
+                value: user.profile.location,
               },{
                 name: 'Needs Reimbursement',
-                value: user.confirmation.needsReimbursement,
+                value: user.profile.needsReimbursement,
                 type: 'boolean'
               },{
                 name: 'Received Reimbursement',
-                value: user.confirmation.needsReimbursement && user.status.reimbursementGiven
+                value: user.profile.needsReimbursement && user.status.reimbursementGiven
               }
             ]
           }

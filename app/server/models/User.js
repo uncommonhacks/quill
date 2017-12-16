@@ -95,7 +95,9 @@ var profile = {
     type: String,
     min: 0,
     max: 1500,
-  }
+  },
+  location: String,
+  needsReimbursement: Boolean,
 };
 
 // Only after confirmed
@@ -113,9 +115,6 @@ var confirmation = {
   twitter: String,
   website: String,
   resume: String,
-
-  location: String,
-  needsReimbursement: Boolean,
 
   notes: String,
 

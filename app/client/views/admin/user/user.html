@@ -155,6 +155,7 @@
                placeholder="Designer, Data Scientist, iOS Wizard, Hacker Extraordinaire"
                ng-model="selectedUser.profile.description">
       </div>
+
       <div class="field">
           <label>
             Anything you're proud of? Github, Twitter, Devpost, website, etc...
@@ -197,7 +198,28 @@
           <textarea ng-model="selectedUser.profile.essay5">
           </textarea>
         </div>
+     <div class="ui header">
+        Travel
+      </div>
 
+      <div class="field">
+        <label>Coming from...</label>
+        <input type="text"
+               name="location"
+               ng-model="selectedUser.confirmation.location">
+      </div>
+
+      <div class="field">
+        <strong> Needs Reimbursement</strong>
+        <i
+          ng-if="selectedUser.confirmation.needsReimbursement"
+          class="uncommongreen check circle icon">
+        </i>
+        <i
+          ng-if="!selectedUser.confirmation.needsReimbursement"
+          class="uncommonred remove circle icon">
+        </i>
+      </div>
       <div class="field"
            ng-hide="isUchicagoStudent">
         <p>
@@ -270,28 +292,6 @@
 
       <div class="ui divider"></div>
 
-      <div class="ui header">
-        Travel
-      </div>
-
-      <div class="field">
-        <label>Coming from...</label>
-        <input type="text"
-               name="location"
-               ng-model="selectedUser.confirmation.location">
-      </div>
-
-      <div class="field">
-        <strong> Needs Reimbursement</strong>
-        <i
-          ng-if="selectedUser.confirmation.needsReimbursement"
-          class="uncommongreen check circle icon">
-        </i>
-        <i
-          ng-if="!selectedUser.confirmation.needsReimbursement"
-          class="uncommonred remove circle icon">
-        </i>
-      </div>
 
       <div class="field">
         <label> Additional Notes </label>
