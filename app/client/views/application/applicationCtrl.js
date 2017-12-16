@@ -190,6 +190,60 @@ angular.module('reg')
                   prompt: 'You must be an adult, or a UChicago student.'
                 }
               ]
+            },
+            essay1: {
+              identifier: 'essay1',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'First essay goes here.'
+                }
+              ]
+            },
+            essay2: {
+              identifier: 'essay2',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Second essay goes here.'
+                }
+              ]
+            },
+            essay3: {
+              identifier: 'essay3',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Third essay goes here.'
+                }
+              ]
+            },
+            essay4: {
+              identifier: 'essay4',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Fourth essay goes here.'
+                }
+              ]
+            },
+            essay5: {
+              identifier: 'essay5',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Fifth essay goes here.'
+                }
+              ]
+            },
+            proudOf: {
+              identifier: 'proudof',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: "Anything you're proud of?"
+                }
+              ]
             }
           }
         });

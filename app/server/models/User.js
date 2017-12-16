@@ -38,12 +38,6 @@ var profile = {
     max: 300
   },
 
-  essay: {
-    type: String,
-    min: 0,
-    max: 1500
-  },
-
   // Optional info for demographics
   gender: {
     type: String,
@@ -71,6 +65,36 @@ var profile = {
     type: String,
     min: 1,
     max: 150,
+  },
+  essay1: {
+    type: String,
+    min: 0,
+    max: 1500,
+  },
+  essay2: {
+    type: String,
+    min: 0,
+    max: 1500,
+  },
+  essay3: {
+    type: String,
+    min: 0,
+    max: 1500,
+  },
+  essay4: {
+    type: String,
+    min: 0,
+    max: 1500,
+  },
+  essay5: {
+    type: String,
+    min: 0,
+    max: 1500,
+  },
+  proudof: {
+    type: String,
+    min: 0,
+    max: 1500,
   }
 };
 
