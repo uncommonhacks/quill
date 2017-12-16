@@ -110,8 +110,6 @@ var confirmation = {
       values: 'XS S M L XL XXL WXS WS WM WL WXL WXXL'.split(' ')
     }
   },
-  
-  resume: String,
 
   notes: String,
 
