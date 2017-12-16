@@ -1,47 +1,21 @@
 chrome debugger
-essay fields
-stats on race
-pretty race input field
-check fields from document
 check colors
 admin/users and admin/settings colors/formatting
 email header
-registration deadlines
 add email alerts
-confirmation page questions
 acceptance messages over email?
-check adult logic
+
+----waiting on ben
+essay fields
+registration deadlines
+
+
+----can be done by hand or are optional
+stats on race
+pretty race input field
+
 
 ````FINAL BEFORE PRODUCTION````
 restart mongo
 JWT secret and mongo connection string
 remove HTTP auth
-
-
-----fields in application
-*email
-*name
-*school
-*grad year
-*what studying?
-*# hackathons
-*describe myself as a....
-*github devpost twitter website
-*resume
-*5 essays?
-*gender
-*pronouns
-*race
-18+
-*travel- where are you coming from?
-*travel- do you want reimbursement?
-legal legal legal
-
-----fields in confirmation
-
-phone
-diet
-shirt size
-get rid of hardware
-get rid of hosting details
-
