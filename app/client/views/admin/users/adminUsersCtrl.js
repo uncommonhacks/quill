@@ -228,8 +228,6 @@ angular.module('reg')
               },{
                 name: 'Essay 5',
                 value: user.profile.essay5
-              },{
-                name
               }
             ]
           },{
@@ -244,12 +242,6 @@ angular.module('reg')
               },{
                 name: 'Shirt Size',
                 value: user.confirmation.shirtSize
-              },{
-                name: 'Github',
-                value: user.confirmation.github
-              },{
-                name: 'Website',
-                value: user.confirmation.website
               }
             ]
           },{

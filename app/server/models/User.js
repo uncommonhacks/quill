@@ -110,10 +110,7 @@ var confirmation = {
       values: 'XS S M L XL XXL WXS WS WM WL WXL WXXL'.split(' ')
     }
   },
-
-  github: String,
-  twitter: String,
-  website: String,
+  
   resume: String,
 
   notes: String,
