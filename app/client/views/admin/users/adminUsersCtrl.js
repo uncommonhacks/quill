@@ -205,15 +205,30 @@ angular.module('reg')
                 name: 'Description',
                 value: user.profile.description
               },{
-                name: 'Essay',
-                value: user.profile.essay
-              },{
                 name: 'Major',
                 value: user.profile.major
               },{
                 name: 'Number of Hackathons',
                 value: user.profile.hackathons
-              },
+              },{
+                name: 'Proud of',
+                value: user.profile.proudof
+              },{
+                name: 'Essay 1',
+                value: user.profile.essay1
+              },{
+                name: 'Essay 2',
+                value: user.profile.essay2
+              },{
+                name: 'Essay 3',
+                value: user.profile.essay3
+              },{
+                name: 'Essay 4',
+                value: user.profile.essay4
+              },{
+                name: 'Essay 5',
+                value: user.profile.essay5
+              }
             ]
           },{
             name: 'Confirmation',
