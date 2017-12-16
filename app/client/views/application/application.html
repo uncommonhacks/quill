@@ -115,7 +115,7 @@
               Upload a resume outlining any skills or experience you'd like to share. PDF preferred!
             </p>
             <p>
-              <i>Please upload the resume with the name and email you used to sign up. If your Dropbox account is under another email address, log out, and you'll be able to submit using the .edu you signed up with.</i>
+              <i>Please upload the resume with the name and email you used to sign up. If your Dropbox account is under another email address, log out, and you'll be able to submit using the .edu you signed up with. Keep it under 2MB!</i>
             </p>  
             <a
               target="_blank"
@@ -194,15 +194,13 @@
           </div>
 
         <div class="divided2 title">Legal Stuff</div>
-        <div class="field"
-             ng-hide="isUChicagoStudent">
+        <div class="field">
           <p>
-            Because of limitations imposed by UChicago, we are not legally allowed to host
-            non-UChicago minors (those under 18) for Uncommon Hacks 2018. Checking the box below affirms that you are or will be 18 years or older by February 10th, 2018.
+            Because of limitations imposed by our venue, we are not legally allowed to host minors (those under 18) for Uncommon Hacks 2018. Checking the box below affirms that you are or will be 18 years or older by February 10th, 2018.
           </p>
           <p>
             <strong>
-            We will be checking ID. If you are a non-UChicago minor, you will be turned away at the door.
+            We will be checking ID. If you are a minor, you will be turned away at the door.
             </strong>
           </p>
           <div class="ui checkbox">
@@ -212,7 +210,46 @@
         </div>
 
         <br>
+          <div class="field">
+            <label> Information Release </label>
+            <p>
+              I agree that my information may be shared with event partners and sponsors who may use that information to contact me for recruiting purposes or other purposes. If you do not consent to having your information shared in this manner, please leave this box unchecked.
+            </p>
+            <div class="ui checkbox">
+              <input type="checkbox" id="inforelease" ng-model="user.profile.inforelease">
+              <label for="inforelease">I agree to share my information.</label>
+            </div>
+          </div>
 
+          <div class="field">
+            <label> MLH Terms and Conditions and Privacy Policy </label>
+            <p>
+              Read the <a target="_blank" href="https://github.com/MLH/mlh-policies/tree/master/prize-terms-and-conditions">MLH Contest Terms and Conditions</a> and <a target="_blank" href="https://mlh.io/privacy"> MLH Privacy Policy</a> here.
+            </p>
+            <p>
+              I agree to the terms of both the MLH Contest Terms and Conditions and the MLH Privacy Policy. Please note that you may receive pre and post-event informational e-mails and occasional messages about hackathons from MLH as per the MLH Privacy Policy.
+            </p>
+            <input type="text"
+                   name="signatureTermsConditions"
+                   placeholder="Your Full Legal Name"
+                   ng-model="user.profile.signatureTermsConditions">
+          </div>
+
+          <div class="field">
+            <label> Code of Conduct </label>
+            <p>
+              Read the <a target="_blank" href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a> here.
+            </p>
+            <p>
+              I agree to abide by the MLH Code of Conduct detailed above.
+            </p>
+            <input type="text"
+                   name="signatureCodeOfConduct"
+                   placeholder="Your Full Legal Name"
+                   ng-model="user.profile.signatureCodeOfConduct">
+          </div>
+          <br>
+          <br>
         <div class="field" ng-hide="regIsClosed">
           <button type="submit"
                   class="fluid ui uncommonpurple button"

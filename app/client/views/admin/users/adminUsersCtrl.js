@@ -228,6 +228,9 @@ angular.module('reg')
               },{
                 name: 'Essay 5',
                 value: user.profile.essay5
+              },{
+                name: 'Information Release',
+                value: user.profile.inforelease
               }
             ]
           },{

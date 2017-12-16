@@ -98,6 +98,16 @@ var profile = {
   },
   location: String,
   needsReimbursement: Boolean,
+  inforelease: Boolean,
+  signatureTermsConditions: {
+    type: String,
+    min: 0,
+    max: 150,
+  }, signatureCodeOfConduct: {
+    type: String,
+    min: 0,
+    max: 150,
+  },
 };
 
 // Only after confirmed
@@ -112,10 +122,6 @@ var confirmation = {
   },
 
   notes: String,
-
-  signatureLiability: String,
-  signaturePhotoRelease: String,
-  signatureCodeOfConduct: String,
 };
 
 var status = {

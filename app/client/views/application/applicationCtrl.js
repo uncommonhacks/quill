@@ -186,7 +186,7 @@ angular.module('reg')
               identifier: 'adult',
               rules: [
                 {
-                  type: 'allowMinors',
+                  type: 'checked',
                   prompt: 'You must be an adult, or a UChicago student.'
                 }
               ]
@@ -244,7 +244,25 @@ angular.module('reg')
                   prompt: "Anything you're proud of?"
                 }
               ]
-            }
+            },
+            signatureTermsConditions: {
+              identifier: 'signatureTermsConditions',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please type your digital signature.'
+                }
+              ]
+            },
+            signatureCodeOfConduct: {
+              identifier: 'signatureCodeOfConduct',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please type your digital signature.'
+                }
+              ]
+            },
           }
         });
       }

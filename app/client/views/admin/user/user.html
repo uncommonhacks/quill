@@ -236,6 +236,12 @@
           <label for="adult">I am 18 or older.</label>
         </div>
       </div>
+      <div class="field">
+        <div class="ui checkbox">
+          <input type="checkbox" id="inforelease" ng-model="selectedUser.profile.inforelease">
+          <label for="inforelease">I agree to release my information.</label>
+        </div>
+      </div>
 
       <div class="field">
         <div
@@ -275,10 +281,6 @@
         <input type="text" ng-model="selectedUser.profile.shirtSize" />
       </div>
 
-      <div class="field">
-        <label> Resume </label>
-        <input type="url" ng-model="selectedUser.confirmation.resume" />
-      </div>
 
       <div class="ui divider"></div>
 
