@@ -78,11 +78,47 @@
                ng-model="user.profile.pronouns">
       </div>
 
+      <script>
+        function updateRaceField() {
+          var selection = getSelectValues(document.getElementById("race-select"));
+          document.getElementById("race-textbox").value = selection;
+        }
+
+        function getSelectValues(select) {
+          var result = [];
+          var options = select && select.options;
+          var opt;
+
+          for (var i=0, iLen=options.length; i<iLen; i++) {
+            opt = options[i];
+
+            if (opt.selected) {
+              result.push(opt.value || opt.text);
+            }
+          }
+          return result.join(",");
+        }
+      </script>
+
       <div class="field">
-        <label>Race</label>
-        <input type="text"
-              name="race"
+        <label>What race or ethnicities do you most identify with?</label>
+        <input type="text" 
+              readonly="readonly"
+              name="race" id="race-textbox"
                ng-model="user.profile.race">
+      
+        <select 
+        name="race-select" id="race-select" 
+        onchange="updateRaceField();" 
+        multiple="" class="ui fluid dropdown">
+          <option value="">What race or ethnicities do you most identify with?</option>
+          <option value="american_indian">American Indian or Alaska Native</option>
+          <option value="asian">Asian or Pacific Islander</option>
+          <option value="black">Black or African American</option>
+          <option value="hispanic">Hispanic or Latino</option>
+          <option value="white">White (Caucasian)</option>
+          <option value="no_share">Prefer not to share</option>
+        </select>
       </div>
 
       <div class="divided2 title">Getting to know you</div>
