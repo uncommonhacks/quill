@@ -355,7 +355,8 @@ UserController.updateConfirmationById = function (id, confirmation, callback){
       '_id': id,
       'verified': true,
       'status.admitted': true,
-      'status.declined': {$ne: true}
+      'status.declined': {$ne: true},
+      'status.rejected': {$ne: true}
     },
       {
         $set: {
@@ -660,6 +661,26 @@ UserController.admitUser = function(id, user, callback){
       callback);
   });
 };
+
+UserController.rejectUser = function(id, user, callback){
+  Settings.getRegistrationTimes(function(err, times){
+    User
+      .findOneAndUpdate({
+        _id: id,
+        verified: true
+      },{
+        $set: {
+          'status.rejected': true,
+          'status.admittedBy': user.email,
+          'status.confirmBy': times.timeConfirm
+        }
+      }, {
+        new: true
+      },
+      callback);
+  });
+};
+
 
 /**
  * [ADMIN ONLY]

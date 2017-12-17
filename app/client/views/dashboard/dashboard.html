@@ -59,7 +59,7 @@
 
         <div class="deadline"
           ng-class="settings.timeClose"
-          ng-if="!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined')">
+          ng-if="!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined') || !dashState('rejected')">
           <strong>
             Registration Deadline:
           </strong>
@@ -244,6 +244,15 @@
 
           <p>
             {{ DASHBOARD.DECLINED }}
+          </p>
+        </div>
+
+        <div
+          class="description"
+          ng-if="dashState('rejected')">
+
+          <p>
+            {{ DASHBOARD.REJECTED }}
           </p>
         </div>
 
