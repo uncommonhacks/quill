@@ -1,9 +1,4 @@
-chrome debugger
 email header
-
-----waiting on ben
-essay fields
-
 
 ----can be done by hand or are optional
 stats on race
@@ -11,8 +6,22 @@ pretty race input field
 add email alerts
 acceptance messages over email?
 
-
-````FINAL BEFORE PRODUCTION````
-restart mongo
-remove HTTP auth
+----FINAL BEFORE PRODUCTION
 registration deadlines
+
+ben's code to make race work: 
+
+<div class="field">
+<label>Race</label>
+<input type="text"
+name="race" id="race-field"
+ng-model="user.profile.race">
+</div>
+<script>
+function appendToRaceField(str) {
+var val = document.getElementById("race-field").value;
+val += str + " ";
+document.getElementById("race-field").value = val;
+}
+</script>
+<input type="button" value="White" onclick="appendToRaceField('White')" />
