@@ -78,8 +78,6 @@
                ng-model="user.profile.pronouns">
       </div>
 
-      <script>$('#multi-select').dropdown();</script>
-
       <div class="field">
         <label>Race</label>
         <select name="race" multiple="" class="ui fluid dropdown" ng-model="user.profile.race">
@@ -93,7 +91,7 @@
         </select>
       </div>
 
-
+      <script>$('.ui.dropdown').dropdown(); $('#multi-select').dropdown();</script>
       <div class="divided2 title">Getting to know you</div>
         <div class="field">
             <label> What are you studying? </label>
