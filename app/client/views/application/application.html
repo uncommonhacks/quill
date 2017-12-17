@@ -79,23 +79,19 @@
       </div>
 
       <script>$('#multi-select').dropdown();</script>
+
       <div class="field">
-      <div class="ui multiple selection dropdown">
-      <label>Race</label>
-      <input name="race" type="hidden text" ng-model="user.profile.race">
-      <i class="dropdown icon"></i>
-      <div class="default text">Race</div>
-        <div class="menu">
-          <div class="item" data-value="N">American Indian or Native Alaskan</div>
-          <div class="item" data-value="A">Asian or Pacific Islander</div>
-          <div class="item" data-value="W">White or Caucasian</div>
-          <div class="item" data-value="B">Black or African American</div>
-          <div class="item" data-value="H">Hispanic or Latino</div>
-          <div class="item" data-value="P">Prefer not to answer</div>
-          <div class="item" data-value="O">Other</div>
-        </div>
+        <label>Race</label>
+        <select name="race" multiple="" class="ui fluid dropdown" ng-model="user.profile.race">
+          <option value="N">American Indian or Native Alaskan</option>
+          <option value="A">Asian or Pacific Islander</option>
+          <option value="W">White or Caucasian</option>
+          <option value="B">Black or African American</option>
+          <option value="H">Hispanic or Latino</option>
+          <option value="P">Prefer not to answer</option>
+          <option value="O">Other</option>
+        </select>
       </div>
-    </div>
 
 
       <div class="divided2 title">Getting to know you</div>
