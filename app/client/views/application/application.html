@@ -78,12 +78,22 @@
                ng-model="user.profile.pronouns">
       </div>
 
-      <div class="field">
-        <label>Race</label>
-        <input type="text"
-              name="race"
-               ng-model="user.profile.race">
-      </div>
+      <script>$('#multi-select').dropdown();</script>
+      <div class="ui multiple selection dropdown">
+  <input name="race" type="hidden" ng-model="user.profile.race">
+  <i class="dropdown icon"></i>
+  <div class="default text">Race</div>
+  <div class="menu">
+    <div class="item" data-value="N">American Indian or Native Alaskan</div>
+    <div class="item" data-value="A">Asian or Pacific Islander</div>
+    <div class="item" data-value="W">White or Caucasian</div>
+    <div class="item" data-value="B">Black or African American</div>
+    <div class="item" data-value="H">Hispanic or Latino</div>
+    <div class="item" data-value="P">Prefer not to answer</div>
+    <div class="item" data-value="O">Other</div>
+  </div>
+</div>
+
 
       <div class="divided2 title">Getting to know you</div>
         <div class="field">
