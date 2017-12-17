@@ -106,20 +106,19 @@
               readonly="readonly"
               name="race" id="race-textbox"
                ng-model="user.profile.race">
-      
-        <select 
-        name="race-select" id="race-select" 
-        onchange="updateRaceField();" 
-        multiple="" class="ui fluid dropdown">
-          <option value="">What race or ethnicities do you most identify with?</option>
-          <option value="american_indian">American Indian or Alaska Native</option>
-          <option value="asian">Asian or Pacific Islander</option>
-          <option value="black">Black or African American</option>
-          <option value="hispanic">Hispanic or Latino</option>
-          <option value="white">White (Caucasian)</option>
-          <option value="no_share">Prefer not to share</option>
-        </select>
-      </div>
+        </div>
+          <select class="ui dropdown"
+          name="race-select-multiple" id="race-select" 
+          onchange="updateRaceField();" 
+          multiple="">
+            <!-- <option value="">What race or ethnicities do you most identify with?</option> -->
+            <option value="american_indian">American Indian or Alaska Native</option>
+            <option value="asian">Asian or Pacific Islander</option>
+            <option value="black">Black or African American</option>
+            <option value="hispanic">Hispanic or Latino</option>
+            <option value="white">White (Caucasian)</option>
+            <option value="no_share">Prefer not to share</option>
+          </select>
 
       <div class="divided2 title">Getting to know you</div>
         <div class="field">
