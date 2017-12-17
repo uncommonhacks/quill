@@ -52,6 +52,16 @@
         </div>
         <div
           class="item">
+          <i class="uncommonred circle icon"></i>
+          <div class="content">
+            <strong>
+              Rejected
+            </strong> :
+            {{stats.rejected}}
+          </div>
+        </div>
+        <div
+          class="item">
           <i class="uncommongreen circle check icon"></i>
           <div class="content">
             <strong>
@@ -238,6 +248,9 @@
           </div>
           <div class="ui uncommonteal mini label">
             Admitted: {{school.stats.admitted}}
+          </div>
+          <div class="ui uncommonred mini label">
+            Rejected: {{school.stats.rejected}}
           </div>
           <div class="ui uncommongreen mini label">
             Confirmed: {{school.stats.confirmed}}

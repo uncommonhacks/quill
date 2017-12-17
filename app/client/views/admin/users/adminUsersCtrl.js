@@ -129,7 +129,42 @@ angular.module('reg')
           });
 
       };
+      $scope.rejectUser = function($event, user, index) {
+        $event.stopPropagation();
 
+        swal({
+          title: "Whoa, wait a minute!",
+          text: "You are about to reject " + user.profile.name + "!",
+          type: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#DD6B55",
+          confirmButtonText: "Yes, reject them.",
+          closeOnConfirm: false
+          }, function(){
+
+            swal({
+              title: "Are you sure?",
+              text: "Your account will be logged as having rejected this user. " +
+                "Remember, this power is a privilege.",
+              type: "warning",
+              showCancelButton: true,
+              confirmButtonColor: "#DD6B55",
+              confirmButtonText: "Yes, reject this user.",
+              closeOnConfirm: false
+              }, function(){
+
+                UserService
+                  .rejectUser(user._id)
+                  .success(function(user){
+                    $scope.users[index] = user;
+                    swal("Rejected", user.profile.name + ' has been rejected.', "success");
+                  });
+
+              });
+
+          });
+
+      };
       function formatTime(time){
         if (time) {
           return moment(time).format('MMMM Do YYYY, h:mm:ss a');

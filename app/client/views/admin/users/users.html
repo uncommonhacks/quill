@@ -53,7 +53,7 @@
               </div>
             </div>
             <p>
-              <strong> Admitted by: </strong> {{selectedUser.status.admittedBy ? selectedUser.status.admittedBy : 'N/A'}}
+              <strong> Admitted/Rejected by: </strong> {{selectedUser.status.admittedBy ? selectedUser.status.admittedBy : 'N/A'}}
             </p>
           </div>
 
@@ -152,7 +152,15 @@
                 ng-if="!user.status.admitted"
                 class="thin circle icon">
               </i>
-
+              <!-- Rejected -->
+              <i
+                ng-if="user.status.rejected"
+                class="uncommonred circle icon">
+              </i>
+              <i
+                ng-if="!user.status.rejected"
+                class="thin circle icon">
+              </i>
               <!-- Confirmed -->
               <i
                 ng-if="!user.status.admitted"
@@ -202,6 +210,12 @@
               <button
                 class="accept ui circular mini basic uncommongreen icon button"
                 ng-click="acceptUser($event, user, $index)">
+                <i class="add user icon"></i>
+              </button>
+
+              <button
+                class="reject ui circular mini basic uncommonred icon button"
+                ng-click="rejectUser($event, user, $index)">
                 <i class="add user icon"></i>
               </button>
 
