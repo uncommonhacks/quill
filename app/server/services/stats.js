@@ -33,7 +33,6 @@ function calculateStats(){
     confirmed: 0,
     confirmedUChicago: 0,
     declined: 0,
-    rejected: 0,
 
     confirmedFemale: 0,
     confirmedMale: 0,
@@ -104,8 +103,6 @@ function calculateStats(){
         // Count confirmed
         newStats.confirmed += user.status.confirmed ? 1 : 0;
 
-        newStats.rejected += user.status.rejected ? 1 : 0;
-
         // Count confirmed that are uchicago
         newStats.confirmedUChicago += user.status.confirmed && email === "uchicago.edu" ? 1 : 0;
 
@@ -134,14 +131,12 @@ function calculateStats(){
             admitted: 0,
             confirmed: 0,
             declined: 0,
-            rejected: 0,
           };
         }
         newStats.demo.schools[email].submitted += user.status.completedProfile ? 1 : 0;
         newStats.demo.schools[email].admitted += user.status.admitted ? 1 : 0;
         newStats.demo.schools[email].confirmed += user.status.confirmed ? 1 : 0;
         newStats.demo.schools[email].declined += user.status.declined ? 1 : 0;
-        newStats.demo.schools[email].rejected += user.status.rejected ? 1 : 0;
 
         // Count graduation years
         if (user.profile.graduationYear){

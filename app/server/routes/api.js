@@ -253,12 +253,6 @@ module.exports = function(router) {
     UserController.admitUser(id, user, defaultResponse(req, res));
   });
 
-  router.post('/users/:id/reject', isAdmin, function(req, res){
-    // Accept the hacker. Admin only
-    var id = req.params.id;
-    var user = req.user;
-    UserController.rejectUser(id, user, defaultResponse(req, res));
-  });
   /**
    * Check in a user. ADMIN ONLY, DUH
    */

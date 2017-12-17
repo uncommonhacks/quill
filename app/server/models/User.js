@@ -139,11 +139,6 @@ var status = {
     required: true,
     default: false,
   },
-  rejected: {
-    type: Boolean,
-    required: true,
-    default: false,
-  },
   admittedBy: {
     type: String,
     validate: [
@@ -393,9 +388,7 @@ schema.virtual('status.name').get(function(){
   if (this.status.admitted) {
     return "admitted";
   }
-  if (this.status.rejected) {
-    return "rejected";
-  }
+
   if (this.status.completedProfile){
     return "submitted";
   }
