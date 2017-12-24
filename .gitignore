@@ -7,3 +7,4 @@ app/client/plugins/
 .env.config
 app.json
 .DS_Store
+package-lock.json

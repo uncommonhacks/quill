@@ -59,7 +59,7 @@
 
         <div class="deadline"
           ng-class="settings.timeClose"
-          ng-if="!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined')">
+          ng-if="(!dashState('admittedAndCanConfirm') || !dashState('admittedAndCannotConfirm') || !dashState('confirmed') || !dashState('declined')) && !dashState('rejected')">
           <strong>
             Registration Deadline:
           </strong>
@@ -69,7 +69,7 @@
 
         <div class="deadline"
           ng-class="settings.timeConfirm"
-          ng-if="dashState('admittedAndCanConfirm') || dashState('admittedAndCannotConfirm') || dashState('confirmed') || dashState('declined')">
+          ng-if="(dashState('admittedAndCanConfirm') || dashState('admittedAndCannotConfirm') || dashState('confirmed') || dashState('declined')) && !dashState('rejected')">
           <strong>
             Confirmation Deadline:
           </strong>
@@ -95,7 +95,7 @@
         </div>
 
         <div
-          ng-if="dashState('openAndSubmitted')"
+          ng-if="dashState('openAndSubmitted') && !dashState('rejected')"
           class="description">
           <p>
             <strong>
@@ -247,6 +247,14 @@
           </p>
         </div>
 
+        <div
+          class="description"
+          ng-if="dashState('rejected')">
+
+          <p>
+            {{ DASHBOARD.REJECTED }}
+          </p>
+        </div>
       </div>
 
     </div>

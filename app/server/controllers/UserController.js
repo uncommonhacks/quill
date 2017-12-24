@@ -651,6 +651,28 @@ UserController.admitUser = function(id, user, callback){
       },{
         $set: {
           'status.admitted': true,
+          'status.rejected': false,
+          'status.admittedBy': user.email,
+          'status.confirmBy': times.timeConfirm
+        }
+      }, {
+        new: true
+      },
+      callback);
+  });
+};
+
+
+UserController.rejectUser = function(id, user, callback){
+  Settings.getRegistrationTimes(function(err, times){
+    User
+      .findOneAndUpdate({
+        _id: id,
+        verified: true
+      },{
+        $set: {
+          'status.rejected': true,
+          'status.admitted': false,
           'status.admittedBy': user.email,
           'status.confirmBy': times.timeConfirm
         }

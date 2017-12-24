@@ -81,7 +81,7 @@
 
         <div class="actions">
           <div class="ui positive right labeled icon button">
-            Nothing
+            OK
             <i class="checkmark icon"></i>
           </div>
         </div>
@@ -149,7 +149,11 @@
                 class="uncommongreen check circle icon">
               </i>
               <i
-                ng-if="!user.status.admitted"
+                ng-if="!user.status.admitted && user.status.rejected"
+                class="uncommonred remove circle icon">
+              </i>
+              <i
+                ng-if="!user.status.admitted && !user.status.rejected"
                 class="thin circle icon">
               </i>
 
@@ -202,7 +206,12 @@
               <button
                 class="accept ui circular mini basic uncommongreen icon button"
                 ng-click="acceptUser($event, user, $index)">
-                <i class="add user icon"></i>
+                <i class="checkmark icon"></i>
+              </button>
+              <button
+                class="accept ui circular mini basic uncommonred icon button"
+                ng-click="rejectUser($event, user, $index)">
+                <i class="remove icon"></i>
               </button>
 
               <button
