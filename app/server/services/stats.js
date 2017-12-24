@@ -69,8 +69,6 @@ function calculateStats(){
     reimbursementTotal: 0,
     reimbursementMissing: 0,
 
-    wantsHardware: 0,
-
     checkedIn: 0
   };
 
@@ -121,8 +119,6 @@ function calculateStats(){
         newStats.reimbursementMissing += user.confirmation.needsReimbursement &&
           !user.status.reimbursementGiven ? 1 : 0;
 
-        // Count the number of people who want hardware
-        newStats.wantsHardware += user.confirmation.wantsHardware ? 1 : 0;
 
         // Count schools
         if (!newStats.demo.schools[email]){
