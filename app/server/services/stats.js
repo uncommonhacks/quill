@@ -23,6 +23,8 @@ function calculateStats(){
         '2019': 0,
         '2020': 0,
         '2021': 0,
+        '2022later': 0,
+        'other': 0
       }
     },
 
