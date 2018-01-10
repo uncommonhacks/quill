@@ -4,6 +4,7 @@ app/client/build/
 app/client/plugins/
 *.log
 .env
+.env.BACKUP
 .env.config
 app.json
 .DS_Store
